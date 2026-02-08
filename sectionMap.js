@@ -1,7 +1,7 @@
 import ImageRead from "./ImageExtract.js";
 import fs from 'fs'
 
-export default async function heatMap(pathway,outBound_pathway,limit = 0.25){
+export default async function sectionMap(pathway,outBound_pathway,limit = 0.25){
     const data = await ImageRead(pathway);
     const DiffLimit = limit;
 
